@@ -17,6 +17,11 @@
   font-size: 14px;
   font-weight: bold;
   font-size: 1rem;
+  display: flex;
+}
+.FAQ-link:hover,
+.ul-link:hover {
+  color: #ffff;
 }
 .menu-wrapper {
   justify-content: end;
@@ -29,4 +34,7 @@
 .FAQ-wrapper {
   display: flex;
   align-items: center;
+}
+.FAQ-text {
+  margin-left: 5px;
 }

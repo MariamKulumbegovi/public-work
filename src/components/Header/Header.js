@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import FAQICON from '../images/FAQ.png';
+import FAQICON from '../../images/FAQ.svg';
 import './Header.css';
 export const Header = () => {
   return (
@@ -14,8 +14,13 @@ export const Header = () => {
                 class="pi pi-info-circle px-2"
                 style={{ color: 'white' }}
               ></i>
-              ⊙{/* <img src={FAQICON} width="auto" height="auto" /> */} ხშირად
-              დასმული შეკითხვები{' '}
+              <img
+                style={{ width: '16px', height: '16px' }}
+                src={FAQICON}
+                width="auto"
+                height="auto"
+              />
+              <span className="FAQ-text"> ხშირად დასმული შეკითხვები</span>
             </Link>
           </li>
         </div>
