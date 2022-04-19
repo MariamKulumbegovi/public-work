@@ -59,7 +59,7 @@ table {
 table td,
 table th {
   padding: 8px;
-  height: 95px;
+  height: 72px;
 }
 table td {
   padding: 2rem 1rem;
@@ -68,12 +68,17 @@ table td {
   text-align: center;
 }
 table th {
-  color: #3a394f !important;
+  color: #000000de !important;
   text-align: center;
   vertical-align: middle;
   padding-top: 12px;
   color: white;
   min-width: 200px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+table th:hover {
+  background-color: #f2f2f2;
 }
 table tr {
   border-bottom: 1px #c2c9d1 solid;

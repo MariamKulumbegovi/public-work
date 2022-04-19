@@ -1,6 +1,7 @@
 import React from 'react';
 import './Table.css';
 import searchIcon from '../../../images/Search.svg';
+import { FilterOutlined } from '@ant-design/icons';
 export const Table = () => {
   return (
     <div className="table-wrapper">
@@ -16,15 +17,33 @@ export const Table = () => {
         <table className="table">
           <tbody>
             <tr>
-              <th>ვაკანსიის კოდი ⇅</th>
-              <th>ვაკანსიის დასახელება</th>
-              <th>ვაკანსიის სტატუსი</th>
-              <th>გამოქვეყნების თარიღი</th>
-              <th>შევსების ბოლო ვადა</th>
-              <th>სამუშაოს სტატუსი</th>
-              <th>დაწყების თარიღი</th>
-              <th>დასრულების თარიღი</th>
-              <th>შევსებული ადგილები</th>
+              <th>
+                ვაკანსიის კოდი <span>⇅</span> <FilterOutlined />
+              </th>
+              <th>
+                ვაკანსიის დასახელება<span>⇅</span> <FilterOutlined />
+              </th>
+              <th>
+                ვაკანსიის სტატუსი <span>⇅</span> <FilterOutlined />
+              </th>
+              <th>
+                გამოქვეყნების თარიღი <span>⇅</span> <FilterOutlined />
+              </th>
+              <th>
+                შევსების ბოლო ვადა <span>⇅</span> <FilterOutlined />
+              </th>
+              <th>
+                სამუშაოს სტატუსი <span>⇅</span> <FilterOutlined />
+              </th>
+              <th>
+                დაწყების თარიღი <span>⇅</span> <FilterOutlined />
+              </th>
+              <th>
+                დასრულების თარიღი <span>⇅</span> <FilterOutlined />
+              </th>
+              <th>
+                შევსებული ადგილები <span>⇅</span> <FilterOutlined />
+              </th>
             </tr>
             <tr>
               <td>Alfreds Futterkiste</td>
