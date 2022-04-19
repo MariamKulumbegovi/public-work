@@ -2,6 +2,7 @@ import React from 'react';
 import plus from '../../images/plus.svg';
 import './Vacancy.css';
 import { Button } from 'antd';
+import { Table } from './Table/Table';
 export const Vacancy = () => {
   return (
     <div className="vacancy-page-wrapper">
@@ -21,6 +22,7 @@ export const Vacancy = () => {
           <button className="publish-btn">გამოქვეყნება</button>
         </div>
       </div>
+      <Table />
     </div>
   );
 };
