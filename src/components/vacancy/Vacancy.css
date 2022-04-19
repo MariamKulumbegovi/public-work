@@ -12,15 +12,60 @@
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.1px;
+  cursor: pointer;
 }
-.add-vacancy-btn:hover {
-  background-color: #1a4d8c;
-  color: #ffff;
-}
+
 .vacancy-page-wrapper {
   margin-top: 1.5rem !important;
 }
-
-.delete-btn:hover {
+.delete-btn {
   background-color: #d32f2f;
+  width: 85px;
+  height: 40px;
+  border-radius: 5px;
+  color: #ffff;
+  font-weight: bold;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.add-delete-wrapper {
+  display: flex;
+}
+.actions-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 15px 0px 15px;
+}
+.view-btn {
+  background-color: #1a4d8c;
+  width: 77px;
+  height: 40px;
+  border-radius: 5px;
+  color: #ffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.edit-btn {
+  width: 145px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #1a4d8c;
+  color: #ffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.publish-btn {
+  width: 137px;
+  height: 40px;
+  border-radius: 5px;
+  color: #ffff;
+  background-color: #f3ac66;
+  font-weight: bold;
+  cursor: pointer;
+}
+.VEP-wrapper {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

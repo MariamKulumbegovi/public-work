@@ -5,17 +5,21 @@ import { Button } from 'antd';
 export const Vacancy = () => {
   return (
     <div className="vacancy-page-wrapper">
-      <div>
-        <div>
-          <Button className="add-vacancy-btn">
+      <div className="actions-wrapper">
+        <div className="add-delete-wrapper">
+          <button className="add-vacancy-btn">
             <img src={plus} />
             <span>ვაკანსიის დამატება</span>
-          </Button>
-          <Button className="delete-btn" danger type="primary">
+          </button>
+          <button className="delete-btn" type="primary">
             წაშლა
-          </Button>
+          </button>
         </div>
-        <div></div>
+        <div className="VEP-wrapper">
+          <button className="view-btn">ნახვა</button>
+          <button className="edit-btn">რედაქტირება</button>
+          <button className="publish-btn">გამოქვეყნება</button>
+        </div>
       </div>
     </div>
   );
