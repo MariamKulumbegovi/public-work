@@ -18,6 +18,10 @@
 .vacancy-page-wrapper {
   margin-top: 1.5rem !important;
 }
+
+.add-vacancy {
+  background-color: #1a4d8c;
+}
 .delete-btn {
   background-color: #d32f2f;
   width: 85px;
