@@ -18,6 +18,7 @@
 
 main {
   min-height: 100vh;
+  width: 100%;
   background-color: #fafafc;
   /* using flex because of better browser support */
   /* display: flex;
@@ -87,8 +88,10 @@ main {
 
 .title {
   font-size: 25px;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 .ant-collapse-header {
   background-color: white;
+  font-weight: bold;
+  font-size: 1.25 rem;
 }
