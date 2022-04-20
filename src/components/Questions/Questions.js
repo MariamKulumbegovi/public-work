@@ -21,7 +21,7 @@ export const Questions = () => {
             defaultActiveKey={['0']}
             expandIconPosition="right"
             expandIcon={({ isActive }) =>
-              isActive ? <PlusOutlined /> : <MinusOutlined />
+              isActive ? <MinusOutlined /> : <PlusOutlined />
             }
           >
             {questions.map((question, index) => (
