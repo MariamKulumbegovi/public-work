@@ -1,42 +1,14 @@
-/* 
-.section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 35px;
-}
-
-.answer {
-  font-size: 1.5rem !important;
-}
-
-.flex {
-  display: flex;
-  justify-content: flex-end;
-} */
-
 main {
   min-height: 100vh;
   width: 100%;
   background-color: #fafafc;
-  /* using flex because of better browser support */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .container {
-  /* width: 100vw; */
-  /* padding-left: 170px; */
   padding-top: 50px;
   margin-left: 170px;
   margin-right: 170px;
-  /* background: #fff;
-  border-radius: var(--radius); */
-  /* max-width: 70%; */
-  /* display: grid; */
-  /* gap: 0.5rem 0.5rem; */
+  width: 80%;
 }
 .container h3 {
   line-height: 1.2;
@@ -94,4 +66,7 @@ main {
   background-color: white;
   font-weight: bold;
   font-size: 1.25 rem;
+}
+.info {
+  width: 80%;
 }

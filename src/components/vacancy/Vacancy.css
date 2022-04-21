@@ -73,3 +73,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* Modal */
+.ant-modal-body {
+  max-width: 1920px;
+}
