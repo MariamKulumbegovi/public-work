@@ -9,7 +9,7 @@ export const Routes = () => {
     <Switch>
       <Route index path={path.HOME_PATH} element={<MainMenu />} />
       <Route path={path.VACANCY_PATH} element={<Vacancy />} />
-      <Route path={path.QUESTIONS_PATH} element={<Questions  />} />
+      <Route path={path.QUESTIONS_PATH} element={<Questions />} />
 
       {/* <Route path="teams" element={<Teams />}>
           <Route path=":teamId" element={<Team />} />

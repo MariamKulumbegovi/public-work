@@ -20,7 +20,10 @@ export const Header = () => {
                 width="auto"
                 height="auto"
               />
-              <Link to="/questions" className="FAQ-text"> ხშირად დასმული შეკითხვები</Link>
+              <Link to="/questions" className="FAQ-text">
+                {' '}
+                ხშირად დასმული შეკითხვები
+              </Link>
             </Link>
           </li>
         </div>

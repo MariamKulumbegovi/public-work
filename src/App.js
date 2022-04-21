@@ -1,5 +1,4 @@
 import { Table } from 'antd';
-import './App.css';
 import { Header } from './components/Header/Header';
 import { Routes } from './Routes';
 
