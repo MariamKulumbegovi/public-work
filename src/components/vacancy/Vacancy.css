@@ -19,6 +19,11 @@
   margin-top: 1.5rem !important;
 }
 
+.Vacancy-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 .add-vacancy {
   background-color: #1a4d8c;
 }

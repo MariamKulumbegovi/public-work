@@ -12,3 +12,5 @@ export const ApiCall = async () => {
   );
   console.log(result.data);
 };
+
+

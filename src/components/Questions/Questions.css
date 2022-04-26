@@ -65,8 +65,9 @@ main {
 .ant-collapse-header {
   background-color: white;
   font-weight: bold;
-  font-size: 1.25 rem;
+  font-size: 18px;
 }
+
 .info {
   width: 80%;
 }
