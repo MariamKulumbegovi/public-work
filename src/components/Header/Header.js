@@ -78,14 +78,9 @@ export const Header = () => {
         </div>
         <div className="menu-wrapper">
           <li>
-            <Dropdown overlay={menu}>
-              <a onClick={e => e.preventDefault()}>
-                <Space>
-                  ვაკანსიები
-                  <DownOutlined />
-                </Space>
-              </a>
-            </Dropdown>
+            <Link className="ul-link" to="#">
+              ვაკანსიები
+            </Link>
           </li>
           <li>
             <Link className="ul-link" to="#">

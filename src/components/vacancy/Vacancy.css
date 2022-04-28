@@ -83,3 +83,15 @@
 .ant-modal-body {
   max-width: 1920px;
 }
+
+.material {
+  margin-top: 40px;
+  font-size: 2.5 rem;
+  font-weight: bold;
+}
+
+.vacancy-detail {
+  margin-top: 70px;
+  font-size: 2.5 rem !important;
+  font-weight: bold;
+}

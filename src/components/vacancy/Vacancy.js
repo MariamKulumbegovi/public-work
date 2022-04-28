@@ -72,7 +72,7 @@ export const Vacancy = () => {
         onOk={handleOk}
         onCancel={handleCancel}
       >
-        <h2 className="Vacancy-title">ვაკანსიის დეტალები</h2>
+        <h1 className="vacancy-detail">ვაკანსიის დეტალები</h1>
         <Row>
           <Col span={14}>
             <Row>
@@ -202,12 +202,12 @@ export const Vacancy = () => {
                 <TextArea rows={4} />
               </Col>
             </Row>
-            <h2 className="Vacancy-title">მატერიალური რესურსები</h2>
+            <h3 className="material">მატერიალური რესურსები</h3>
             <Row>
               <Col span={12}>
                 <Input
                   placeholder="დასახელება"
-                  style={{ width: 240, borderRadius: 5, marginTop: 40 }}
+                  style={{ width: 240, borderRadius: 5, marginTop: 5 }}
                 />
               </Col>
               <Col span={12}>
@@ -219,7 +219,7 @@ export const Vacancy = () => {
                   style={{
                     width: 230,
                     borderRadius: 5,
-                    marginTop: 40,
+                    marginTop: 5,
                     marginLeft: 10,
                   }}
                 />
@@ -242,27 +242,41 @@ export const Vacancy = () => {
               <Col span={12}>
                 <Input
                   placeholder="სახელი"
-                  style={{ borderRadius: 5, marginTop: 20 }}
+                  style={{ borderRadius: 5, marginTop: 20, width: 230 }}
                 />
               </Col>
+
               <Col span={12}>
                 <Input
                   placeholder="გვარი"
-                  style={{ borderRadius: 5, marginTop: 20, marginLeft: 10 }}
+                  style={{
+                    borderRadius: 5,
+                    marginTop: 20,
+                    marginLeft: 15,
+                    width: 230,
+                    paddingLeft: 15,
+                  }}
                 />
               </Col>
             </Row>
+
             <Row>
               <Col span={12}>
                 <Input
                   placeholder="ტლეფონის ნომერი"
-                  style={{ borderRadius: 5, marginTop: 20 }}
+                  style={{ borderRadius: 5, marginTop: 20, width: 230 }}
                 />
               </Col>
+
               <Col span={12}>
                 <Input
                   placeholder="მობილურის ნომერი"
-                  style={{ borderRadius: 5, marginTop: 20, marginLeft: 10 }}
+                  style={{
+                    borderRadius: 5,
+                    marginTop: 20,
+                    marginLeft: 10,
+                    width: 230,
+                  }}
                 />
               </Col>
             </Row>
